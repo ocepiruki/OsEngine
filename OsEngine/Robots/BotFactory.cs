@@ -277,10 +277,6 @@ namespace OsEngine.Robots
             {
                 bot = new ParabolicSarTrade(name, startProgram);
             }
-            if (nameClass == "PriceChannelTrade")
-            {
-                bot = new PriceChannelTrade(name, startProgram);
-            }
             if (nameClass == "WilliamsRangeTrade")
             {
                 bot = new WilliamsRangeTrade(name, startProgram);
