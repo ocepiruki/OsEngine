@@ -931,7 +931,6 @@
     <Compile Include="Robots\Trend\ParabolicSarTrade.cs" />
     <Compile Include="Robots\Patterns\PinBarTrade.cs" />
     <Compile Include="Robots\Patterns\PivotPointsRobot.cs" />
-    <Compile Include="Robots\Trend\PriceChannelTrade.cs" />
     <Compile Include="Robots\CounterTrend\RsiContrtrend.cs" />
     <Compile Include="Robots\Trend\SmaStochastic.cs" />
     <Compile Include="Robots\Trend\StrategyBillWilliams.cs" />
@@ -949,9 +948,6 @@
     </Compile>
     <Compile Include="Robots\Patterns\PivotPointsRobotUi.xaml.cs">
       <DependentUpon>PivotPointsRobotUi.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Robots\Trend\PriceChannelTradeUi.xaml.cs">
-      <DependentUpon>PriceChannelTradeUi.xaml</DependentUpon>
     </Compile>
     <Compile Include="Robots\CounterTrend\RsiContrtrendUi.xaml.cs">
       <DependentUpon>RsiContrtrendUi.xaml</DependentUpon>
@@ -1453,10 +1449,6 @@
     <Page Include="Robots\Patterns\PivotPointsRobotUi.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Robots\Trend\PriceChannelTradeUi.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Robots\CounterTrend\RsiContrtrendUi.xaml">
       <SubType>Designer</SubType>
